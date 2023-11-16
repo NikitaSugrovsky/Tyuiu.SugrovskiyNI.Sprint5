@@ -14,7 +14,7 @@ namespace Tyuiu.SugrovskiyNI.Sprint5.Task0.V22.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
+            string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt.txt";
 
             double z = 3;
             double result = (Math.Pow((1 - x), 2)) / (-3 * x);

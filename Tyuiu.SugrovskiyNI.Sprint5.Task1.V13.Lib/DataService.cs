@@ -12,7 +12,7 @@ namespace Tyuiu.SugrovskiyNI.Sprint5.Task1.V13.Lib
     {
         public string SaveToFileTextData(int startValue, int stopValue)
         {
-            string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask1.txt";
+            string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask1.txt.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExits = fileInfo.Exists;
